@@ -19,7 +19,7 @@ a:hover { color: #E2383F;}
 .main_title.reverse small { color: #fff; }
 
 .main1, .main2, .main3, .main4 { padding: 30px 0; }
-.main1 { background-image: url(/img/01_bg1.png), url(/img/01_bg2.png);}
+.main1 { background-image: url(../img/01_bg1.png), url(../img/01_bg2.png);}
 .main1 .carousel-control-prev-icon,
 .main1 .carousel-control-next-icon { width: 81px; height: 50px; }
 .main1 .carousel-indicators button { width: 20px; height: 20px; border-radius: 50%;}
@@ -58,3 +58,28 @@ a:hover { color: #E2383F;}
     padding: 10px 5px; text-align: center; }
 .bbs_list > li { border-bottom: #ccc 1px dotted; padding: 5px 0;}
 .bbs_list > li  h4 { font-size: 24px; }
+
+/* 모바일 */
+@media (max-width: 576px) { 
+    #head { border-bottom: 10px solid #E2383F;  }
+    #head .navbar-brand img { width: 180px;}
+    #navi  ul > li { border-bottom: 1px #ccc solid; } 
+    #navi  .dropdown-toggle::after { display: none; }
+    .main2 .bbs_img { width: 250px; margin: 0 auto;}
+    .main3 .poster { width: 232px; margin: 0 auto; padding: 38px 40px; }
+    .main3 .poster img { width: 100%; }
+    .main_title { padding:10px 0;}
+    .book { width: 52%;}
+}
+
+/* 태블릿 */
+@media (max-width: 768px) {  }
+
+/* 1000 이상 데스크탑 */
+@media (max-width: 992px) {  }
+
+/* 1200 이상 데스크탑 */
+@media (max-width: 1200px) {  }
+
+/* 1400 이상 데스크탑 */
+@media (max-width: 1400px) {  }

@@ -1,0 +1,60 @@
+/*기본설정*/
+body { color: #333;}
+a { color:#333; text-decoration: none; }
+a:hover { color: #E2383F;}
+
+/*레이아웃 관련*/
+.wrap { width: 100%; margin: 0; padding: 0; }
+.head { /*height: 120px; position: relative; width: 800px;*/ padding: 50px 0; margin: 0 auto; background: rgba(0, 0, 0, 0.2);}
+.content {   }
+.content img { max-width: 100%; }
+.head, .foot { text-align: center;}
+
+#head { border-bottom: 20px solid #E2383F; }
+
+/*메인 스타일 관련*/
+.main_title { font-size: 24px; color: #000; font-weight: 600; border-bottom: #A1A1A1 1px solid; padding: 5px 15px;}
+.main_title small { font-size: 16px; color: #FF0000;}
+.main_title.reverse { color:#E2383F; }
+.main_title.reverse small { color: #fff; }
+
+.main1, .main2, .main3, .main4 { padding: 30px 0; }
+.main1 { background-image: url(/img/01_bg1.png), url(/img/01_bg2.png);}
+.main1 .carousel-control-prev-icon,
+.main1 .carousel-control-next-icon { width: 81px; height: 50px; }
+.main1 .carousel-indicators button { width: 20px; height: 20px; border-radius: 50%;}
+
+.main2 { background-image: url(../img/02_bg.png); background-size:auto 100%;}
+.main2 .carousel-control-prev i,
+.main2 .carousel-control-next i { font-size: 30px; color: #333;  }
+
+.main3 { background-image: url(../img/03_bg2.png), url(../img/03_bg1.gif); background-repeat: no-repeat, repeat;
+ background-position: center center, center; background-size: auto 100%, auto; color:#fff; }
+.main3 a { color: #fff; }
+.poster { padding: 28px 38px; background-image: url(../img/03_poster_bg.png); background-size: 100% 100%; background-repeat: no-repeat;}
+.icon_link p { margin: 5px 0;}
+.icon_link img { height: 60px; width: auto; }
+
+.main4 { background-image: url(../img/04_bg.jpg); background-position: top center; background-size: cover;}
+.book { width: 215px; margin: 5px auto; box-shadow:5px 5px 15px rgba(0,0,0,0.5) ; }
+.site_list > div { border-right: #ccc 1px solid; margin: 10px 0 5px 0; }
+.site_list > div:nth-child(3n) { border: none;}
+
+#main_banner { background-color: #fff; border-radius: 20px; border: 1px #ccc solid; margin: 10px 0; padding: 10px 30px; }
+#main_banner .row > div { border-right: 1px #ccc solid; }
+#main_banner .row > div:last-child { border: none; }
+#main_banner .carousel-control-prev,
+#main_banner .carousel-control-next { color:#333; width: 30px; }
+
+.foot { background-color: #4D4D4D; color: #fff; padding: 12px 0; }
+.foot a { color:#fff;  }
+.foot_link { border-bottom: 1px #000 solid; padding: 8px 0; }
+.foot_copy { border-top: 1px #ccc solid; padding: 8px 0;}
+
+/*게시판 스타일 관련*/
+.bbs_img { border-radius: 20px; position: relative; }
+.bbs_img > img { border-radius: 20px; }
+.bbs_img p { border-radius:0 0 20px 20px; background-color: rgba(0, 0, 0, 0.75); color: #fff; position: absolute; width: 100%; bottom: 0; margin: 0;
+    padding: 10px 5px; text-align: center; }
+.bbs_list > li { border-bottom: #ccc 1px dotted; padding: 5px 0;}
+.bbs_list > li  h4 { font-size: 24px; }
